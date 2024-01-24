@@ -74,7 +74,7 @@ class SimpleResponse
         return response()->json($response,$httpCode);
     }
 
-    public function paginateRes($httpCode = 200, $data, $message = null, $errorCode=null)
+    public static function paginateRes($httpCode = 200, $data, $message = null, $errorCode=null)
     {
 		$data = $data->toArray();
         unset($data['links'], $data['next_page_url'], $data['prev_page_url'],  $data['first_page_url'],  $data['last_page_url']);
