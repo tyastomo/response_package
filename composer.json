@@ -1,0 +1,20 @@
+{
+    "name": "tyastomo/response",
+    "description": "Response kaya biasa aja",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tyastomo\\Response\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tyastomo",
+            "email": "fahmityastomo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    }
+}
